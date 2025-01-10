@@ -1,0 +1,258 @@
+<!Doctype html> 
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+    <meta name="viewpor" content="width=device-width, initial-scale=1.0">
+      <title>Java_Dev_phase2</title>
+      <!--Bootstrap-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+       crossorigin="anonymous">
+      <!--Bootstrap-->
+
+      <!--Google Fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" 
+      rel="stylesheet">
+      <!--Google Fonts-->
+
+      <!--Style CSS-->
+      <link rel="stylesheet" href="make.css"/>
+      <!--Style CSS-->
+  </head>
+ <body>
+  <!--Navbar-->
+     <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#">PollPro</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> 
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav__li">
+                <a class="nav__a " aria-current="page" href="face.html">Home <span class="sr-only"></span></a>
+              </li>
+              <li class="nav__li">
+                <a class="nav__a" href="polls.html"> Polls </a>
+              </li>
+              <li class="nav__li">
+                <a class="nav__a" href="#"> About </a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    </header>  
+    <!--Navbar-->
+    
+  <!--Banner-->
+  <section id="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <h1 class="bannerH1"> Online Voting System </h1>
+          <p>
+            Our online polling system connects people all 
+            over the world with common interest to participate in interest debates and votes. 
+            Our goal is to provide clear and easy polling services. 
+          </p>
+           <a href="#"><button class="VotingBtn">Vote Now</button></a>
+        </div>
+        <div class = "col-md-6 mb-5">
+          <img src="img/img_4.png" alt="banner_img">
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--Banner-->
+
+  <!--Voting Section -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="pt-5">
+          <h1 class="text-center mt-5">Take a Survey</h1>
+          <div class="img mx-auto">
+            <img src="img/img_5.png" alt="voting_img" width="35%" 
+            height="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+          </div>
+          <div class="text-center">
+            <a href="#"><button class="VotingBtn mb-5">Surveys</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Voting Section-->
+
+  <!--About Section-->
+  <section id="about" class="mt-5 pt-5">
+    <div class="col-md-s12">
+      <h1 class="text-center text-white pt-5">About Us</h1>
+      <h4 class="text-center text-white">Online Voting System</h4>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+          <div class="pt-4  mb-5 col-md-6 ">
+            <img class="pt-4 mb-5 " src="img/img_7.png" width="90%" alt="about"/>
+          </div>
+          <div class="col-md-6 mx-auto">
+            <h4 class=" mt-5 pt-5 text-center text-white">About Us</h4>
+            <p class="col-md-12 text-center text-white">
+              We are user-friendly web application that allows our users with common interest to create and participate in poll and survey. 
+              The platform will facilitate the collection and analysis of opinions and feedback, proving and detailed reports. Our project aims to
+              create a system for gathering the tools and analyse the feedback from the users. 
+              The intuitive interface ensures that users of all technical levels can easily navigate the platform, making it accessible for everyone. 
+              By leveraging advanced analytics, our application provides actionable insights that empower users to make informed decisions based on the collective feedback.
+            </p>
+          </div>
+      </div>
+    </div>
+    
+  </section>
+  <!--About Section-->
+  <!--Contact Section-->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class=" text-center pt-5 mt-5 mb-5 pb-5 text-contact">
+            <h1> Contact Form </h1>
+          </div>
+        </div>
+        <!--Bootstrap FORM-->
+        <div class="col-md-6">
+          <div class="contact-form-main">
+            <h2 class="text-center pt-3 pb-3"> Contact Form  </h2>
+            <form class="row g-3 needs-validation" action="process.php" method="POST">
+              <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">First name</label>
+                <input type="text" class="form-control" name="validationCustom01" id="validationCustom01" required >
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Last name</label>
+                <input type="text" class="form-control" name="validationCustom02" id="validationCustom02" required >
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="inputGroupPrepend">@</span>
+                  <input type="text" class="form-control" name="validationCustomUsername" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required >
+                  <div class="invalid-feedback">
+                    Please choose a username.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-10 mb-3">
+                <label for="validationCustom03" class="form-label">Email Address</label>
+                <input type="text" class="form-control"  name="validationCustom03" id="validationCustom03" required >
+                <div class="invalid-feedback">
+                  Please provide a valid email address.
+                </div>
+              </div>
+        
+              <div class="col-md-10 mb-3">
+                <label for="validationCustom05" class="form-label">Message</label>
+                <textarea cols="20" rows="5" type="text" class="form-control" name="validationCustom05" id="validationCustom05" required ></textarea>
+                <div class="invalid-feedback">
+                  Please enter the message.
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox"  name="invalidCheck" id="invalidCheck" required >
+                  <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="SubmitBtn mt-3 mb-3" type="submit">Submit</button>
+              </div>
+              
+            </form>
+          </div>
+          <!--Bootstrap-->
+        </div>
+        <div class="class col-md-6">
+          <div class="contactImg">
+            <img src="img/img_8.png" width="85%" alt="SubmitImg">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Contact Section-->
+
+  <!--Candidate Section-->
+  <section id="about" class="mt-5 pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mt-5 mb-5">
+          <h1 class="text-center text-white">Become a Poll Creator</h1>
+          <p class="text-center text-white">Become a Poll Creator</p>
+        </div>
+        <div class="col-md-6">
+          <div class="img-candidate-footer">
+            <img src="img/img_10.png" alt="create_poll" width="80%">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class=" text-white text-center candi-apply-text ">
+            <h2 class="mt-3 mb-2">Apply</h2>
+            <p>Passionate about engaging audiences and sparking discussions? Become a poll creator on our website! You'll craft thought-provoking questions, gather opinions, and help shape conversations within our community. 
+              It's a great way to share your ideas, connect with others, and make an impact. Ready to get started? 
+              Sign up today and start creating your first poll!</p>
+              <a href="#"><button class="VotingBtn">Apply</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Candidate Section-->
+  <!--Footer/Socials Section-->
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-m-6">
+          <div class="footer-social">
+            <ul class="d-flex list-unstyled p-2 footer_social_ul">
+              <li>Home</li>
+              <li>About</li>
+              <li>Suggestion</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Footer/Socials Section-->
+ </body>
+ <script src="move.js">
+    document.querySelector('form').onsubmit = function() {
+        const name = document.querySelector('[name="name"]').value.trim();
+        const email = document.querySelector('[name="email"]').value.trim();
+        const message = document.querySelector('[name="message"]').value.trim();
+
+        if (!name || !email || !message) {
+            alert("All fields are required.");
+            return false;
+        }
+        return true;
+    };
+
+ </script>
+</html>
