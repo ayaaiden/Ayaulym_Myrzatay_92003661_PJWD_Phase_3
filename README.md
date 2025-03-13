@@ -36,7 +36,7 @@ This project PollPro is an online polling system where users can participate in 
 # Usage
 
 1\. Visit the home page
-![HomePage.png](.media/img_2.png)
+![HomePage.png](https://github.com/ayaaiden/Ayaulym_Myrzatay_92003661_Project_Java_Web_Development_Phase_2/blob/6bed666b53d54255f08c96f72158342e04ec2c45/HomePage.png)
 
 2\. Click "Polls" to view available polls
 ![PollsPage.png](.media/img_3.png)
