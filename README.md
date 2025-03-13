@@ -64,6 +64,6 @@ In the second part, we can see the polls page, and voting (with update on PHP da
 ## How Polls Work
 
 <video width="400" controls>
-  <source src="https://github.com/ayaaiden/Ayaulym_Myrzatay_92003661_Project_Java_Web_Development_Phase_2/raw/main/HowPollsWork.mov" type="video/mov">
+  <source src="https://github.com/ayaaiden/Ayaulym_Myrzatay_92003661_Project_Java_Web_Development_Phase_2/raw/main/HowPollsWork.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video> 
