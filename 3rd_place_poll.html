@@ -59,39 +59,42 @@
                 <p class="card-text">The question "What is the best soda flavor?" explores the wide range of tastes in the world of carbonated drinks. From classic cola to fruity blends, every flavor has its own loyal fans.
                      This fun and bubbly debate invites people to share their favorite sodas and the reasons why they love them, making it a refreshing topic for discussion.</p>
         </div>
-        <div class="col-md-3" style="margin-left: 25px; padding-top: 30px; float: left;">
+       <form action="process.php" method="POST">
+          <input type="hidden" name="poll_id" value="3">
+         <div class="col-md-3" style="margin-left: 25px; padding-top: 30px; float: left;">
           <div class="card" style="width: 18rem;">
               <img class="img_card_top" src="img/img_18.jpg" alt="card_img" height="350px">
            <div class="card-body">
-              <h2 class="card-title">Coca-cola</h2>
+              <h2 class="card-title"> <input type="radio" name="vote" value="Coca-cola" required> Coca-cola</h2>
               <p class="card-text">Iconic, refreshing, timeless.</p>
-                  <a class="btn btn-primary">Vote now</a>
+              <button type="submit" class="btn btn-primary">Vote Now</button>
            </div>
               </div>
-        </div>
+         </div>
       
-        <div class="col-md-3" style="margin-left: 25px; padding-top: 30px; float: left;">
+         <div class="col-md-3" style="margin-left: 25px; padding-top: 30px; float: left;">
             <div class="card" style="width: 18rem;">
                 <img class="img_card_top" src="img/img_19.jpg" alt="card_img_2" height="350px">
              <div class="card-body">
-                <h2 class="card-title">Sprite</h2>
+                <h2 class="card-title"> <input type="radio" name="vote" value="Sprite" required> Sprite</h2>
                 <p class="card-text">Crisp, lemon-lime, invigorating.</p>
-                    <a class="btn btn-primary">Vote now</a>
+                <button type="submit" class="btn btn-primary">Vote Now</button>
              </div>
                 </div>
             </div>
         
-        <div class="col-md-3" style="margin-left: 25px; padding-top: 30px; float: left;">
+         <div class="col-md-3" style="margin-left: 25px; padding-top: 30px; float: left;">
           <div class="card" style="width: 18rem;">
               <img class="img_card_top" src="img/img_20.jpg" alt="card_img_3" height="350px">
            <div class="card-body">
-              <h2 class="card-title">Fanta</h2>
+              <h2 class="card-title"> <input type="radio" name="vote" value="Fanta" required> Fanta</h2>
               <p class="card-text">Fruity, vibrant, fizzy.</p>
-                  <a class="btn btn-primary">Vote now</a>
+              <button type="submit" class="btn btn-primary">Vote Now</button>
            </div>
               </div>
           </div>
       </div>
+     </form>
     </div>
 </div>
 </body>

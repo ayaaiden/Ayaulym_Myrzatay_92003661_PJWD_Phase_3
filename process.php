@@ -38,5 +38,32 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Form not submitted.";               
 
 }
+//Connection of the polls 
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $poll_id = $_POST['poll_id'];
+    $vote = $_POST['vote'];
+
+    if (!empty($poll_id) && !empty($vote)) {
+        session_start();
+        if (isset($_SESSION["voted_$poll_id"])) {
+            echo "You have already voted for this poll!";
+            exit;
+        }
+
+        // Insert vote into the existing database
+        $stmt = $conn->prepare("INSERT INTO votes (poll_id, choice) VALUES (?, ?)");
+        $stmt->bind_param("is", $poll_id, $vote);
+        $stmt->execute();
+        $stmt->close();
+
+        $_SESSION["voted_$poll_id"] = true;
+        echo "Vote submitted successfully!";
+    } else {
+        echo "Error: Missing poll or vote data.";
+    }
+}
+
+
 
 ?>

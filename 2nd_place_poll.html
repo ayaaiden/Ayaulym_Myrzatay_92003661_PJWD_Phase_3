@@ -59,13 +59,15 @@
                 <p class="card-text">From classic options to gourmet varieties, this debate sparks interest among ramen enthusiasts who have their go-to favorites. 
                     It's an engaging topic that invites people to share their preferred brands and the reasons behind their choices, making it a tasty conversation starter.</p>
         </div>
+        <form action="process.php" method="POST">
+          <input type="hidden" name="poll_id" value="2">
         <div class="col-md-3" style="margin-left: 25px; padding-top: 30px; float: left;">
           <div class="card" style="width: 18rem;">
               <img class="img_card_top" src="img/img_17.png" alt="card_img" height="400px">
            <div class="card-body">
-              <h2 class="card-title">Beef Ramen</h2>
+              <h2 class="card-title"> <input type="radio" name="vote" value="Beef Ramen" required> Beef Ramen</h2>
               <p class="card-text">Savory, hearty, umami.</p>
-                  <a class="btn btn-primary">Vote now</a>
+              <button type="submit" class="btn btn-primary">Vote Now</button>
            </div>
               </div>
         </div>
@@ -74,9 +76,9 @@
             <div class="card" style="width: 18rem;">
                 <img class="img_card_top" src="img/img_16.png" alt="card_img_2" height="400px">
              <div class="card-body">
-                <h2 class="card-title">Seafood Ramen</h2>
+                <h2 class="card-title"> <input type="radio" name="vote" value="Seafood Ramen" required> Seafood Ramen</h2>
                 <p class="card-text">Savory, oceanic, flavorful.</p>
-                    <a class="btn btn-primary">Vote now</a>
+                 <button type="submit" class="btn btn-primary">Vote Now</button>
              </div>
                 </div>
             </div>
@@ -85,13 +87,14 @@
           <div class="card" style="width: 18rem;">
               <img class="img_card_top" src="img/img_15.png" alt="card_img_3" height="400px">
            <div class="card-body">
-              <h2 class="card-title">Pork Ramen</h2>
+              <h2 class="card-title"> <input type="radio" name="vote" value="Pork Ramen" required> Pork Ramen</h2>
               <p class="card-text">Savory, hearty, satisfying.</p>
-                  <a class="btn btn-primary">Vote now</a>
+               <button type="submit" class="btn btn-primary">Vote Now</button>
            </div>
               </div>
           </div>
       </div>
+    </form>
     </div>
 </div>
 </body>

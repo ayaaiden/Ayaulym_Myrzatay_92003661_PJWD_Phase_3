@@ -61,40 +61,52 @@
                     Whether it's classic vanilla, rich chocolate, or something more adventurous, 
                     this question invites people to share their favorites and explore the reasons behind their choices, making it a delightful topic for discussion</p>
         </div>
-        <div class="col-md-3" style="margin-left: 25px; padding-top: 30px; float: left;">
+         <form action="process.php" method="POST">
+          <input type="hidden" name="poll_id" value="1">
+         <div class="col-md-3" style="margin-left: 25px; padding-top: 30px; float: left;">
           <div class="card" style="width: 18rem;">
               <img class="img_card_top" src="img/img_12.png" alt="card_img" height="400px">
            <div class="card-body">
-              <h2 class="card-title">Vanilla</h2>
-              <p class="card-text">Its the classic of the classic.</p>
-                  <a class="btn btn-primary">Vote now</a>
+              <label>
+               <h2 class="card-title">
+                <input type="radio" name="vote" value="Vanilla" required> Vanilla</h2>
+               <p class="card-text">Its the classic of the classic.</p>
+               <button type="submit" class="btn btn-primary">Vote Now</button>
+              </label>
            </div>
               </div>
         </div>
-      
+        <input type="hidden" name="poll_id" value="1">
         <div class="col-md-3" style="margin-left: 25px; padding-top: 30px; float: left;">
             <div class="card" style="width: 18rem;">
                 <img class="img_card_top" src="img/img_13.png" alt="card_img_2" height="400px">
              <div class="card-body">
-                <h2 class="card-title">Chocolate</h2>
+              <label>
+                <h2 class="card-title"> 
+                <input type="radio" name="vote" value="Chocolate"> Chocolate </h2>
                 <p class="card-text">The best one.</p>
-                    <a class="btn btn-primary">Vote now</a>
+                <button type="submit" class="btn btn-primary">Vote Now</button>
+              </label>
              </div>
                 </div>
             </div>
-        
+            <input type="hidden" name="poll_id" value="1">
         <div class="col-md-3" style="margin-left: 25px; padding-top: 30px; float: left;">
           <div class="card" style="width: 18rem;">
               <img class="img_card_top" src="img/img_14.png" alt="card_img_3" height="400px">
            <div class="card-body">
-              <h2 class="card-title">Chocolate Mint</h2>
+            <label>
+              <h2 class="card-title"> 
+              <input type="radio" name="vote" value="Chocolate Mint"> Chocolate Mint</h2>
               <p class="card-text">Damn, your wierd.</p>
-                  <a class="btn btn-primary">Vote now</a>
+              <button type="submit" class="btn btn-primary">Vote Now</button>
+                  </label>
            </div>
               </div>
           </div>
       </div>
+    </form> 
     </div>
-</div>
+  </div>
 </body>
 </html>
