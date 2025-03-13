@@ -11,7 +11,7 @@ This project PollPro is an online polling system where users can participate in 
 * A dedicated poll section displaying 3 different available polls.
 * Individual poll pages whee users can vote.
 * Contact form to receive feedback from the users.
-* Responsive design using Bootstrap (http://\<getbootstrap.com/docs/3.4/css/>)
+* Responsive design using Bootstrap (http://<www.getbootstrap.com/docs/3.4/css/>)
 
 # Technologies that has been used
 
@@ -29,7 +29,7 @@ This project PollPro is an online polling system where users can participate in 
 3. Configure the server
 3.1. Install XAMPP, WAMP, or any local server enviroment supporting PHP nad MySQL
 3.2. Place the projecy folder inside the htdocs (for XAMPP)
-3.3. Start [Apache and MySQL] (http://<youtu.be/ueWpNe0PG34?si=gbYMA69KXWSrfG1r>) services
+3.3. Start [Apache and MySQL] (http://<www.youtube.com/watch?v=ueWpNe0PG34>) services
 4. Run the project
 4.1. Open a brower and navigate to: (http://\<localhost/face.html>), this will load the home page of the polling system
 
