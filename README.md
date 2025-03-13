@@ -57,8 +57,8 @@ This project PollPro is an online polling system where users can participate in 
 2.2. Check if votes are stored correctly
 2.3. Validate form submissions
 
-The video with the how project works:
+# The video with the how project works:
 In the first part, we can see how to contact form and buttons work on the homepage (with update on PHP database): 
-!![ContactFormVideo](https://github.com/ayaaiden/Ayaulym_Myrzatay_92003661_Project_Java_Web_Development_Phase_2/blob/4b317babf151c5a80b63ecb892b56060a6aeb42c/ContactForm.mov)
+![ContactFormVideo](https://github.com/ayaaiden/Ayaulym_Myrzatay_92003661_Project_Java_Web_Development_Phase_2/blob/4b317babf151c5a80b63ecb892b56060a6aeb42c/ContactForm.mov)
 In the second part, we can see the polls page, and voting (with update on PHP databse): 
 ![HowPollsWorkVideo](https://github.com/ayaaiden/Ayaulym_Myrzatay_92003661_Project_Java_Web_Development_Phase_2/blob/4b317babf151c5a80b63ecb892b56060a6aeb42c/HowPollsWork.mov)
