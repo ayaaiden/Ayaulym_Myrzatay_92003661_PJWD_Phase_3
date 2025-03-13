@@ -42,9 +42,9 @@ This project PollPro is an online polling system where users can participate in 
 ![PollsPage.png](https://github.com/ayaaiden/Ayaulym_Myrzatay_92003661_Project_Java_Web_Development_Phase_2/blob/9c2d742003250e4abcb7ab3640acd7e60900b1f5/PollsPage.png)
 <br>
 3\. Chose a poll and cast your vote
-
+![Poll_N2.png](https://github.com/ayaaiden/Ayaulym_Myrzatay_92003661_Project_Java_Web_Development_Phase_2/blob/6dad81e68f194a9824e36ddb7a01d76316be9bc9/Poll_N2.png)
 4\. Use the contact form to send feedback
-
+![ContactForm.png](https://github.com/ayaaiden/Ayaulym_Myrzatay_92003661_Project_Java_Web_Development_Phase_2/blob/6dad81e68f194a9824e36ddb7a01d76316be9bc9/ContactForm.png)
 
 # Testing
 
