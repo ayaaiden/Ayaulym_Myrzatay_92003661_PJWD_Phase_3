@@ -11,7 +11,7 @@ This project PollPro is an online polling system where users can participate in 
 * A dedicated poll section displaying 3 different available polls.
 * Individual poll pages whee users can vote.
 * Contact form to receive feedback from the users.
-* Responsive design using [Bootstrap]([Bootstrap](http://www.getbootstrap.com/docs/3.4/css/))
+* Responsive design using [Bootstrap](http://www.getbootstrap.com/docs/3.4/css/)
 
 # Technologies that has been used
 
