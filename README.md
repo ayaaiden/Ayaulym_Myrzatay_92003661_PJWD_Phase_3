@@ -60,5 +60,6 @@ This project PollPro is an online polling system where users can participate in 
 # The video with the how project works:
 In the first part, we can see how to contact form and buttons work on the homepage (with update on PHP database): 
 [Contact Form Video](https://www.youtube.com/watch?v=AtRCeaxBag0)
+<br>
 In the second part, we can see the polls page, and voting (with update on PHP databse): How Polls Work
 [How Polls Work Video](https://www.youtube.com/watch?v=GrfS4ovRXbE)
