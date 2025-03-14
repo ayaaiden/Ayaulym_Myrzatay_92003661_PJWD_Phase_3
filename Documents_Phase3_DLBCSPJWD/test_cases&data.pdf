@@ -1,0 +1,30 @@
+In my project for the course Project: Java and Web Development, I built a “PollPro” system, which allows users to interact with other users and vote. The project has a Home page, Polls page, Voting functionality, and Contact form submission. The test case with actions and expected result:
+1.	Test Case 1: Home Page load (face.html).
+- Action: Open the website in a web browser (<https://\localhost/face.html,
+-	Expected Result: The home page loads correctly with a navbar, welcome text,  “Vote Now” button, and a contact form;
+2.	Test Case 2: Polls Page (polls.html). 
+-	Action: Load the polls page,
+-	Expected Result: The page displays all available polls,
+-	Action: Click on “1st place poll.” ,
+-	Expected Result: Redirects to 1st_place_poll.html,
+-	Action: Click on “2nd place poll.”,
+-	Expected Result: Redirects to 2nd_place_poll.html,
+-	Action: Click on “3rd place poll.”,
+-	Expected Result: Redirects to 3rd_place_poll.html;
+3.	Test Case 3: Individual Polls (1st _place_poll.html, 2nd_place_poll.html, 3rd_place_poll.html).
+-	Action: Click “Vote Now” under an option in 1st _place_poll.html, 2nd_place_poll.html, 3rd_place_poll.htm,
+-	Expected Result: The vote is sent to process.php;
+4.	Test Case 4: Checking Database entry for a vote.
+-	Action: Submit and check a vote on the database votes table,
+-	Expected Result: A new row should be inserted with the correct poll_id and vote value;
+5.	Test Case 5: Contact Form (face.html).
+-	Action: Click “Submit” without filling any fields,
+-	Expected Result: The form is not submitted, and an error message appears;
+6.	Test Case 6: Submitting valid form.
+-	Action: Fill the form with valid data and click “Submit”,
+-	Expected Result: A confirmation message should be displayed;
+7.	Test Case 7: Database and Backend.
+-	Action: Submit a contact form entry and check the database; check dbConnect.php for connection errors,
+-	Expected Result: The form data should be stored in the database without errors; 
+
+The 7 test cases provided in this document show all the action functionalities and expected results. 
