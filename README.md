@@ -16,7 +16,7 @@ This project PollPro is an online polling system where users can participate in 
 # Technologies that has been used
 
 * Frontend: HTML, CSS(Bootstrap), JavaScript.
-* Backend: [PHP] http://www.youtube.com/watch?v=-1DTYAQ25bY
+* Backend:[PHP](http://www.youtube.com/watch?v=-1DTYAQ25bY)
 * Database: MySQL
 
 # The installation of the project PollPro
@@ -29,8 +29,8 @@ This project PollPro is an online polling system where users can participate in 
 3. Configure the server
 3.1. Install XAMPP, WAMP, or any local server enviroment supporting PHP nad MySQL
 3.2. Place the projecy folder inside the htdocs (for XAMPP)
-3.3. Start [Apache and MySQL] (http://www.youtube.com/watch?v=ueWpNe0PG34) services
-4. Run the project
+3.3. Start [Apache and MySQL](http://www.youtube.com/watch?v=ueWpNe0PG34) services
+5. Run the project
 4.1. Open a brower and navigate to: (http://\localhost/face.html), this will load the home page of the polling system
 
 # Usage
@@ -59,6 +59,6 @@ This project PollPro is an online polling system where users can participate in 
 
 # The video with the how project works:
 In the first part, we can see how to contact form and buttons work on the homepage (with update on PHP database): 
-[ContactFormVideo] (https://www.youtube.com/watch?v=AtRCeaxBag0)
+[Contact Form Video](https://www.youtube.com/watch?v=AtRCeaxBag0)
 In the second part, we can see the polls page, and voting (with update on PHP databse): How Polls Work
-[HowPollsWork] (https://www.youtube.com/watch?v=GrfS4ovRXbE)
+[How Polls Work Video](https://www.youtube.com/watch?v=GrfS4ovRXbE)
