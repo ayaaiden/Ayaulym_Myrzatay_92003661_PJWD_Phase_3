@@ -1,0 +1,22 @@
+Project Title: Online Pooling and Survey System 
+Abstract 
+
+	My project aims to build a user-friendly web application that allows users with common interests to create and participate in polls and survey. The platform will facilitate the collection and analysis of opinions and feedback, proving results and detailed reports. 
+Objectives: 
+1. Primary: To develop a robust and scalable online polling and survey system that ensures secure under interaction.
+2. Secondary: An easy creation and management of polls and surveys; secure user authorization; real-time display of poll and survey results; offer reports and analytics for admins; user-friendly interface.
+
+Requirements:  
+1. Functional Requirements: 
+   • User Authentication: Secure registration and login functionalities. 
+   • Poll/Survey: Features for creation, edit, and deletion.
+   • Real-Time Result: Display poll and survey result in real-time.
+   • Report and Analytics: Generate detailed reports and analytics for admins. 
+   • Admin panel: Manage users, polls, and surveys through a dedicated admin interface.
+2. Non-functional Requirements: 
+   • Security: Protect users’ data and ensure Secure access.
+   • Performance: Ensure the system is fast and responsive. 
+   • Usability: Intuitive and easy-to-navigate.
+   • Scalability: Allow the system to handle a growing number of users and data. 
+
+	My project aims to create a system for gathering the tools and analyze the feedback from the users. The clearly defined objectives, requirements will be providing clear and user friendly interface for both users and administrators. 
