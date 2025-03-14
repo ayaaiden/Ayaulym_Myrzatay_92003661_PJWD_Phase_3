@@ -11,12 +11,13 @@ This project PollPro is an online polling system where users can participate in 
 * A dedicated poll section displaying 3 different available polls.
 * Individual poll pages whee users can vote.
 * Contact form to receive feedback from the users.
-* Responsive design using [Bootstrap] (http://www.getbootstrap.com/docs/3.4/css/)
+* Responsive design using [Bootstrap] http://www.getbootstrap.com/docs/3.4/css/
+* [Bootsrap]([Bootsrap](http://www.getbootstrap.com/docs/3.4/css/))
 
 # Technologies that has been used
 
 * Frontend: HTML, CSS(Bootstrap), JavaScript.
-* Backend: [PHP] (http://www.youtube.com/watch?v=-1DTYAQ25bY)
+* Backend: [PHP] http://www.youtube.com/watch?v=-1DTYAQ25bY
 * Database: MySQL
 
 # The installation of the project PollPro
