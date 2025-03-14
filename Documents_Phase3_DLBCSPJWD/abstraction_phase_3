@@ -1,0 +1,58 @@
+Phase 3: Abstract – PollPro Online Voting System
+
+A. Introduction 
+  PollPro is an online polling system that allows users to participate in interactive polls and submit their votes in real-time. The system is designed to provide a user-friendly experience while ensuring secure and accurate vote collection. This project is developed using HTML, CSS, JavaScript for the front end and PHP and MySQL for the backend, with additional features to prevent duplicate voting and display real-time results. 
+
+B. Technical approaches 
+Frontend (Client – Side) :
+The frontend for this project was developed using: 
+  •	HTML & CSS (Bootstrap) for structuring and styling the web pages. 
+  •	JavaScript (move.js) to enhance interactivity and send requests for voting actions.
+  •	Responsive design to ensure compatibility across different devices. 
+The key pages include: 
+  1.	Home page (face.html) – Provides an introduction to the system, 
+  2.	Polls Page (polls.html) – Lists of available polls for voting, 
+  3.	Poll Voting pages (1st_place_poll.html, 2nd_place_poll.html, 3rd_place_poll.html) – Displays poll options in order and allows the users to vote. 
+
+Backend (Server – Side):
+The backend is implemented using: 
+  •	PHP is used to handle user interaction and database queries. 
+  •	MySQL stores poll questions, user votes, and form submissions. 
+  •	Session – Based Security to prevent duplicate votes. 
+The key functionalities include: 
+  1.	Process.php – processes user votes and inserts them into the database, 
+  2.	dbconnect.php – manages database connectivity, 
+  3.	results.php – retrieves and displays poll results dynamically. 
+
+Database (MySQL):
+The database contains: 
+  •	Polls table – stores poll questions and options. 
+  •	Votes table – stores user-submitted votes. 
+  •	Users table (if required) – stores additional user details. 
+Data validation ensures that only one vote per poll is recorded per user. 
+
+C.	Features Implemented 
+  A user-friendly UI with navigation. A dynamic voting system where users can vote and view results. Database connectivity for persistent storage of votes. A contact form with validation for user feedback. An architecture diagram and test cases to document the system design and functionality. 
+
+D.	Challenges and Lessons learned 
+The challenges I faced during this project development were 
+  1.	Ensuring responsiveness across different devices. 
+  2.	Implementing secure voting to prevent duplicate submissions. 
+  3.	Managing session-based security user interactions. 
+The lessons I have learned from overcoming those challenges: 
+  •	Importance of database optimization – Efficient queries improve system performance.
+  •	Security in web application – Using PHP sessions prevents multiple votes from the same user. 
+  •	Enhancing user experience – A clean UI improves usability. 
+  •	Version control with GitHub – Tracking changes and managing contributions. 
+
+E.	Conclusion 
+  Working on the project using and incorporating front and backend was challenging but fruitful. In my final submission, the following deliverables have been prepared: 
+
+  1.	Code Repository: Including all the files (HTML, CSS, JavaScript, PHP, and MySQL) are available in my GitHub (“ “)
+  2.	Installation and run instructions:  provided in the README.md 
+  3.	Architecture diagram: Illustrates the interaction between frontend, backend, and database 
+  4.	Test cases and data: detailed document covering test scenarios and expected results. 
+  5.	Screencast video: a short demonstration of the working application, which is included in the repository README.md and the abstract document. 
+  6.	Abstract document: This document explains the technical implementation and challenges. 
+
+  PollPro successfully implements an interactive online voting system that meets course requirements. With secure databases, a responsive UI, and dynamic voting functionality, the project provides a complete polling experience. 
